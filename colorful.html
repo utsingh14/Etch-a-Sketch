@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <h1>Etch-a-Sketch</h1>
+    <div class="btns">
+      <button onclick="handleOnClick()">Resize</button>
+      <button onclick="handleClearAll()">Clear All</button>
+      <button onclick="handleMode()" id="colorBtn">Colorfull</button>
+      <button onclick="handleMode()" id="bwBtn" style="display: none">
+        Black/White
+      </button>
+    </div>
+    <div class="container"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
